@@ -153,7 +153,11 @@ dmypy.json
 cython_debug/
 
 # Project specifics ignores
+# Tutti i modelli clonati in PyTorch
 
+pytorch/gpu/**/fp32/*/*/
+tensorflow/gpu/**/fp32/*/*/
+models/
 output/
 datasets/
 weights/

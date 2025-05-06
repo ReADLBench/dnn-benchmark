@@ -59,6 +59,18 @@ The repository is organized into two main directories:
 - ```tensorflow/```: has the same structure as the previous directory but for the Keras models.
 
 
+## Download Weights
+
+To download the model weights, run the following command in the terminal:
+
+```
+python3 download_weight.py
+```
+An interactive menu will appear, allowing you to select and download the weights for your preferred models.
+
+The weights will be saved in the directory ```dnn-benchmark/<framework>/<gpu>/<model tasks>/<dataset>/fp32/<model family>/```.
+If you choose to download weights for only one framework (PyTorch or TensorFlow), they will be saved in the corresponding folder. If you decide to download weights for both frameworks, they will be organized in the following new directory ```dnn-benchmark/models/```.
+
 ## Dataset transformations description
 
 The following transformations are applied for image preprocessing with each dataset in PyTorch and TensorFlow, respectively, ensuring the input data is appropriately augmented for training and prepared for testing.
@@ -189,6 +201,9 @@ To perform the fault injection campaigns on the Tensorflow framework, we used a 
 
 
 ## Available Models 
+
+Below is a list of available models along with their accuracy for both frameworks. 
+> [!NOTE] The reported numbers may vary slightly depending on the machines used for running inferences.
 
 ### CIFAR-10 Models
 Here is a list of models trained for CIFAR10 dataset, which has images belonging to 10 classes.
