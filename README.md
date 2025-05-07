@@ -23,7 +23,7 @@ For each model, a fault list has been generated, and a fault injection campaign 
 1. Create a virtual environment
 
 ```
-python -m venv <venv_name>
+python3 -m venv <venv_name>
 ```
 
 2. Activate the environment
@@ -55,7 +55,7 @@ pip install -r requirements-dev.txt
 ## Projects structure
 
 The repository is organized into two main directories:
-- ```torch/```: This directory includes folders organized by hardware type and task, such as ```gpu/image_classification/```, with each containing subdirectories for different data representation and reference datasets. Each dataset-specific folder holds the code, the fault list and the pretrained weights for the corresponding PyTorch models
+- ```pytorch/```: This directory includes folders organized by hardware type and task, such as ```gpu/image_classification/```, with each containing subdirectories for different data representation and reference datasets. Each dataset-specific folder holds the code, the fault list and the pretrained weights for the corresponding PyTorch models
 - ```tensorflow/```: has the same structure as the previous directory but for the Keras models.
 
 
