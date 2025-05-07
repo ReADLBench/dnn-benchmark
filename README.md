@@ -32,23 +32,23 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Install the dependencies from the requirements
+3. Clone the repository
+   
+```bash
+git clone https://github.com/cad-polito-it/dnn-benchmarks
+```
+
+4. Install the dependencies from the requirements.
 You can find a requirements.txt from which you can install all dependencies using
 
 ```
 pip install -r requirements.txt
 ```
-4. Clone the repository
 
-Given the great size of the checkpoints of the weights, this repo uses git-lfs. 
-This means that to clone the repo **with the weights** you need to install git-lfs.
-In general, you just need to install the git-lfs package on your distribution (something like `apt install git-lsf`)
-and then install the plugin on git using the command `git lsf install`.
-For more information [check this link](https://git-lfs.com/)
-After doing that, simply clone the repo:
+5. The requirements-dev.txt file lists the versions of the frameworks version used in the experiments. While installing these dependencies is entirely optional, it is recommended to install them for compatibility with the models and to replicate the experiments accurately:
 
-```bash
-git clone https://github.com/cad-polito-it/dnn-benchmarks
+```
+pip install -r requirements-dev.txt
 ```
 
 
