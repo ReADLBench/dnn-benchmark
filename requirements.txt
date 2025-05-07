@@ -1,2 +1,5 @@
-
+ipython
+tqdm
+tabulate
+natsort
 gitpython
