@@ -23,13 +23,13 @@ For each model, a fault list has been generated, and a fault injection campaign 
 1. Create a virtual environment
 
 ```
-python -m venv .venv
+python -m venv <venv_name>
 ```
 
 2. Activate the environment
 
 ```
-source .venv/bin/activate
+source <venv_name>/bin/activate
 ```
 
 3. Clone the repository
