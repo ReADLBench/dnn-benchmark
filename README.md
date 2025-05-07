@@ -35,7 +35,7 @@ source .venv/bin/activate
 3. Clone the repository
    
 ```bash
-git clone https://github.com/cad-polito-it/dnn-benchmarks
+git clone https://github.com/ReADLBench/dnn-benchmark.git
 ```
 
 4. Install the dependencies from the requirements.
