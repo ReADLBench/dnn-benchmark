@@ -257,6 +257,5 @@ All the models are validated using the PASCAL VOC 2012 validation set that conta
 # Acknowledgments
 This study was carried out within the FAIR - Future Artificial Intelligence Research and received funding from the European Union Next-GenerationEU (PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) – MISSIONE 4 COMPONENTE 2, INVESTIMENTO 1.3 – D.D. 1555 11/10/2022, PE00000013). This manuscript reflects only the authors’ views and opinions, neither the European Union nor the European Commission can be considered responsible for them.
 
-
-
-
+## Third parties
+This project includes code from [TorchVision](https://github.com/pytorch/vision/tree/main) released under BSD-3-Clause license. The original files retain their license, shown in their respective headers or license files.
