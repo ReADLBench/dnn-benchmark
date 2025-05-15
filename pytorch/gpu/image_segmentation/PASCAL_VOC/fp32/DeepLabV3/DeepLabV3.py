@@ -13,6 +13,12 @@ from torchvision.models.segmentation._utils import _SimpleSegmentationModel
 from torchvision.models.segmentation.fcn import FCNHead
 
 
+# This file (or portion of code) is derived from:
+# TorchVision - https://github.com/pytorch/vision/tree/main (BSD-3-Clause License)
+
+
+
+
 __all__ = [
     "DeepLabV3",
     "DeepLabV3_ResNet50_Weights",
