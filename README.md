@@ -55,8 +55,8 @@ pip install -r requirements-dev.txt
 ## Projects structure
 
 The repository is organized into two main directories:
-- ```pytorch/```: This directory includes folders organized by hardware type and task, such as ```gpu/image_classification/```, with each containing subdirectories for different data representation and reference datasets. Each dataset-specific folder holds the code, the fault list and the pretrained weights for the corresponding PyTorch models
-- ```tensorflow/```: has the same structure as the previous directory but for the Keras models.
+- ```pytorch/```: This directory includes folders organized by hardware type and task, such as ```gpu/image_classification/```, with each containing subdirectories for different data representation and reference datasets. Each dataset-specific folder holds the code, the fault list and the pretrained weights for the corresponding PyTorch models downloadable by running the file ```download_weight.py```
+- ```tensorflow/```: has the same structure as the previous directory but for the Keras models downloadable by running the file ```download_weight.py```.
 
 
 ## Download Weights
