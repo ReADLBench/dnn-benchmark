@@ -52,7 +52,7 @@ def get_user_choice(options, prompt):
 
 def get_model_family(model_name):
     lower = model_name.lower()
-    if "resnet" in lower:
+    if "resnet" in lower and 'deeplabv3' not in lower:
         return "resnet"
     elif "densenet" in lower:
         return "densenet"

@@ -71,6 +71,12 @@ An interactive menu will appear, allowing you to select and download the weights
 The weights will be saved in the directory ```dnn-benchmark/<framework>/<gpu>/<model tasks>/<dataset>/fp32/<model family>/```.
 If you choose to download weights for only one framework (PyTorch or TensorFlow), they will be saved in the corresponding folder. If you decide to download weights for both frameworks, they will be organized in the following new directory ```dnn-benchmark/models/```.
 
+To understand how to load the weights in the models, run the following command in the terminal:
+
+```
+python3 load_model.py
+```
+
 ## Dataset transformations description
 
 The following transformations are applied for image preprocessing with each dataset in PyTorch and TensorFlow, respectively, ensuring the input data is appropriately augmented for training and prepared for testing.
