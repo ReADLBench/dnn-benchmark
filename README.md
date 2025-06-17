@@ -9,6 +9,25 @@ This project is a collaboration between the following institutions:
 - [Politecnico di Milano](https://www.polimi.it/)
 - [Ecole Centrale de Lyon](https://www.ec-lyon.fr/en)
 
+## Citation
+
+If you use this repository in your research or projects, please cite the following article:
+
+```bibtex
+@ARTICLE{11029030,
+  author={Bolchini, Cristiana and Bosio, Alberto and Cassano, Luca and Miele, Antonio and Pappalardo, Salvatore and Passarello, Dario and Ruospo, Annachiara and Sanchez, Ernesto and Reorda, Matteo Sonza and Turco, Vittorio},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  title={Benchmark Suite for Resilience Assessment of Deep Learning Models},
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCAD.2025.3578297}
+}
+```
+You can access the article online via the DOI link:
+[https://doi.org/10.1109/TCAD.2025.3578297](https://doi.org/10.1109/TCAD.2025.3578297)
+
 
 ## Getting Started
 The idea of this project is to share neural networks to conduct reliability studies. The goal is to make it easier and more accessible for different research groups to compare their results.
