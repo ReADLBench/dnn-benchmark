@@ -3,3 +3,5 @@ tqdm
 tabulate
 natsort
 gitpython
+numpy>=1.20,<2.0
+

@@ -161,6 +161,7 @@ models/
 output/
 datasets/
 weights/
+Datasets/
 .python-version
 
 pytorch_benchmarks/image_classification/pretrained_weights/

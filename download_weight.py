@@ -63,7 +63,7 @@ def get_model_family(model_name):
     elif "mobilenet" in lower:
         return "mobilenet"
     elif "deeplabv3" in lower:
-        return "Deeplabv3"
+        return "DeepLabV3"
     else:
         return "other"
 
